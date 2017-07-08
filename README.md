@@ -40,7 +40,6 @@ smi(function (err, data) {
 If installed globally, a `node-nvidia-smi` executable is installed on your
 system `PATH`.
 
-
 [View example output in the wiki][wiki].
 
 [wiki]: https://github.com/chrisallenlane/node-nvidia-smi/wiki/Example-Output
