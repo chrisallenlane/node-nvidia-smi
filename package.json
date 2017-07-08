@@ -1,0 +1,40 @@
+{
+  "name": "node-nvidia-smi",
+  "version": "1.0.0",
+  "description": "Node wrapper around nvidia-smi.",
+  "homepage": "https://github.com/chrisallenlane/node-nvidia-smi",
+  "author": {
+    "name": "Chris Allen Lane",
+    "email": "chris@chris-allen-lane.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "jshint . --exclude=/node_modules"
+  },
+  "jshintConfig": {
+    "esnext": true,
+    "expr": true,
+    "laxbreak": true
+  },
+  "dependencies": {
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "jshint": "2.9.5"
+  },
+  "keywords": [
+    "nvidia",
+    "gpu"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisallenlane/node-nvidia-smi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisallenlane/node-nvidia-smi/issues"
+  },
+  "bin": {
+    "node-nvidia-smi": "node-nvidia-smi.js"
+  },
+  "main": "index.js"
+}
